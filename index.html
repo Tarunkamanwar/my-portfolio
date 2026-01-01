@@ -4,15 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
          
-    <style>
-       .my {
-        text-align: center;
-        font-size: 50px;
-        
-       }
-
-    </style>
 
 
 </head>
@@ -20,20 +13,20 @@
     <header>
     <h1 class="my"> Welcome to my portfolio</h1>
 
-    <a href=""><button> About </button></a>
-    <a href=""><button>SKILLS</button></a>
-    <a href=""><button>PROJECTS</button></a>
-    <a href=""><button>CONTACT</button></a>
+    <a href=""><button class="button"> About </button></a>
+    <a href=""><button class="button">SKILLS</button></a>
+    <a href=""><button class="button">PROJECTS</button></a>
+    <a href=""><button class="button">>CONTACT</button></a>
 
     </header>
 
     <main>
-    <section id="About"> 
+    <section id="About">
         
         
         <h1> Tarun kamanwar</h1>
 
-    <img src="Tarun.JPG" alt="image" width="450" height="600">
+    <img src="Tarun.JPG" alt="image" width="400" height="500">
 
 
     <p> I am a passionate web developer with a front-end technologies.</p>
@@ -77,17 +70,17 @@
         
         <Label for="Username"> <b>Name:</b></Label>
         <input type="text"id="Username" name="name" placeholder="enter your name"required>
-        <br>
+        <br><br>
         
 
         <label for="email"><b>Email :</b></label>
         <input type="email" id="email" name="email" placeholder="enter your email" required>
-        <br>
+        <br><br>
 
 
         <label for="phone number"><b>phone number :</b> </label>
         <input type="number" id="phonenumber" name="phonenumber" placeholder="enter phone number" required>
-        <br>
+        <br><br>
 
 
         <label><b>Gender  :</b></label>
@@ -126,23 +119,25 @@
             </select>
         <br><br>
            <label for="bio"><b> your biography</b></label>
-        <br>
+        <br><br>
+
         <textarea id="bio" name="bio" placeholder="write your bio here..."></textarea>
         <br><br>
 
 
         
-        <button type="submit">submit</button>
+        <button type="submit" class="submit">submit</button>
         
         <br>
         </section>
 
         
         </main>
+        <button class="top">top</button>
 
         <footer>
 
-    <p> &copy; 2025 Tarun kamanwar. All rights reserved.</p>
+    <p> &copy; 2024 Tarun kamanwar. All rights reserved.</p>
 
         </footer>
 
