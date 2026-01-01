@@ -109,4 +109,5 @@ header h1{
     height: 100px;
     background-color: rgb(1, 11, 11);
     color: gray;
+    position: fixed;
  }
