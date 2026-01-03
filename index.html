@@ -12,14 +12,16 @@
 <body>
     <header>
     <h1 class="my"> Welcome to my portfolio</h1>
-
+ 
+<div>
     <a href=""><button class="button"> About </button></a>
-    <a href=""><button class="button">SKILLS</button></a>
-    <a href=""><button class="button">PROJECTS</button></a>
-    <a href=""><button class="button">>CONTACT</button></a>
-
-    </header>
-
+    <a href=""><button class="button"> Skills </button></a>
+    <a href=""><button class="button"> Projects </button></a>
+    <a href=""><button class="button"> Contact </button></a>
+   
+</div>
+   
+</header>
     <main>
     <section id="About">
         
@@ -61,7 +63,7 @@
         </tr>
           </table>
        <br>
-    </section>
+    </section class="contact">
               
             <section id="CONTACT">
         <h1> CONTACT ME</h1>
@@ -70,18 +72,18 @@
         
         <Label for="Username"> <b>Name:</b></Label>
         <input type="text"id="Username" name="name" placeholder="enter your name"required>
-        <br>
         
+        <br>
 
         <label for="email"><b>Email :</b></label>
         <input type="email" id="email" name="email" placeholder="enter your email" required>
-        <br>
-
+        
+<br>
 
         <label for="phone number"><b>phone number :</b> </label>
         <input type="number" id="phonenumber" name="phonenumber" placeholder="enter phone number" required>
-        <br>
-
+        
+<br>
 
         <label><b>Gender  :</b></label>
         
@@ -91,23 +93,27 @@
         
             <label for="femaleradio"><b> female</b></label>
         <input type="radio" id="femaleradio" value="female">
-        <br>
+        
 <br>
         <label> <b>Programming languages :</b></label>
+<br><br>
+        <input type="checkbox" id="html" name="html" value="html">
+        <label for="html"> HTML</label>
 <br>
-          <input type="checkbox" id="pythoncheckbox" value="python">
-            <label for="pythoncheckbox">python</label>
-            <input type="checkbox"id="javasciptcheckbox" value="javascript">
-            <label for="javasciptcheckbox">JavaScript</label>
-            <input type="checkbox" id="htmlcheckbox" value="html">
-            <label for="htmlcheckbox">HTML</label>
-            <input type="checkbox" id="otherscheckbox" value="others">
-            <label for="otherscheckbox">others</label>
+        <input type="checkbox" id="css" name="css" value="css">
+        <label for="css"> CSS</label>
+<br>
+        <input type="checkbox" id="javascript" name="javascript" value="javascript">
+        <label for="javascript"> JavaScript</label>
+<br>
+        <input type="checkbox" id="others" name="others" value="others">
+        <label for="others"> others</label>
+        
 <br><br>
 
            <label><b> date of birth</b></label>
         <input type="date" name="dob">
-        <br>
+        <br><br>
 
            <label><b>select your language :</b> </label>
            <select>
@@ -117,12 +123,12 @@
             <option value="Telugu"> Telugu</opttion>
             
             </select>
-        <br>
+        <br><br>
            <label for="bio"><b> your biography</b></label>
         <br>
-
+<br>
         <textarea id="bio" name="bio" placeholder="write your bio here..."></textarea>
-        <br>
+        <br><br>
 
 
         

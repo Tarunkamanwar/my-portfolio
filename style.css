@@ -9,15 +9,21 @@ body{
 }
 
 header{
+   
 
     background-color: rgb(58, 226, 226);
     height: 100vh;
     color: white;
-    
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 70px;
 
 }
 header h1{
 
+   font-size: 5rem;
     margin: 0;
     color: white;
 }
@@ -46,9 +52,20 @@ header h1{
 
  section{
     height: 100vh;
-    border: 3px solid grey;
-    border-radius: 23px;
+    border: 1px solid grey;
+    border-radius: 20px;
     margin-bottom: 20px;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+ }
+ .contact{
+    height: 70vh;
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
  }
  main{
     padding: 20px;
@@ -106,5 +123,4 @@ header h1{
     bottom: 0;
     width: 100%;
     padding: 30px;
- }
- 
+   }
